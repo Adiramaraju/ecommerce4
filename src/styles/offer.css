@@ -1,0 +1,59 @@
+html{
+   scroll-behavior: smooth;
+}
+
+#offer{
+   margin:60px;
+  
+}
+.offer-container{
+ 
+   display: flex;
+   align-items: center;
+   
+}
+.offer-deatil-container{
+  
+   margin-right:20px;
+  
+}
+.offer1-icon{
+   height:200px;
+}
+.offer2-icon{
+   height:310px;
+   margin-right: 25px;
+}
+.offer-details p{
+   font-size: 12px;
+   color:gray;
+   margin-bottom: 10px;
+  
+}
+.offer-details h1{
+   font-size: 22px;
+   margin-bottom:10px;
+}
+.offer-details button{
+   background-color: black;
+   color:white;
+   border:none;
+   padding: 8px 15px;
+   font-size:10px;
+   border-radius:1px;
+   transition: 0.5s ease-in-out;
+
+}
+.offer-details button:hover{
+   background-color:rgb(115, 164, 146);
+   color:black;
+}
+
+#count-down{
+   font-size:40px;
+   color:rgb(81, 129, 81);
+   margin-bottom: 15px;
+}
+
+
+ 

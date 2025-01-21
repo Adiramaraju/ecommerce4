@@ -1,0 +1,35 @@
+#collection{
+    
+    margin:0px 50px;
+    position: relative;
+    margin-top:40px;
+    
+}
+.collection-container{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+}
+.collection-deatils-container{
+    position: relative;
+}
+.collection-img{
+    overflow: hidden;
+}
+.collection-icon{
+   width:230px;
+    height:250px;
+    transition: 0.5s ease;
+}
+.collection-details{
+    position: absolute;
+    top:20px;
+    left:30px;
+    
+}
+.collection-details h1{
+    font-size: 18px;
+}
+.collection-icon:hover{
+    transform: scale(1.15);
+}
