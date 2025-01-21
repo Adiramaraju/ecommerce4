@@ -35,13 +35,13 @@ function App() {
   
 
 
-useEffect(() => {
-  if(orders.length>0){
+// useEffect(() => {
+//   if(orders.length>0){
 
-    localStorage.setItem('orders', JSON.stringify(orders));
-  }
+//     localStorage.setItem('orders', JSON.stringify(orders));
+//   }
     
-}, [orders]);
+// }, [orders]);
 
 
 
